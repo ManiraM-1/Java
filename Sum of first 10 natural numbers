@@ -1,0 +1,15 @@
+// To write a Java Program to find the sum of First 10 Natural Numbers.
+
+// Java Code:
+public class Basic {
+ public static void main(String args []){
+ int i;
+ int num = 10;
+ int sum = 0;
+ for (i = 0; i <= num; i++)
+ {
+ sum = sum+i;
+ }
+ System.out.println("The sum of First 10 Natural Numbers is : " + sum);
+ }
+}
