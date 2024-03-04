@@ -1,0 +1,29 @@
+// write a Java Program to print the Greatest of three numbers.
+
+// Java Code:
+
+import java.util.*;
+public class Basic {
+ public static void main(String args []){
+ Scanner input = new Scanner(System.in);
+ int a, b, c;
+ System.out.println("Enter the first number :");
+ a = input.nextInt();
+ System.out.println("Enter the second number :");
+ b = input.nextInt();
+ System.out.println("Enter the third number :");
+ c = input.nextInt();
+ if (a > b && a > c)
+ {
+ System.out.println("The Greatest Number is : "+a);
+ }
+ else if (b > a && b > c)
+ {
+ System.out.println("The Greatest Number is : "+b);
+ }
+ else
+ {
+ System.out.println("The Greatest Number is : "+c);
+ }
+ }
+}
